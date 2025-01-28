@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poornachandar Chandragouni - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #232f3e;
+            color: #ffffff;
+        }
+        header {
+            background-color: #ff9900;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            background-color: #131a22;
+            padding: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ff9900;
+            font-weight: bold;
+        }
+        section {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #131a22;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            background-color: #131a22;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .skill-bar {
+            background-color: #37475a;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 1rem;
+        }
+        .skill-bar span {
+            display: block;
+            height: 20px;
+            background-color: #ff9900;
+        }
+        .project, .certification {
+            margin-bottom: 1.5rem;
+        }
+        .certification a {
+            color: #ff9900;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poornachandar Chandragouni</h1>
+        <p>Cloud Engineer | AWS | Terraform | VMware | Linux</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Cloud Engineer with over 3 years of experience in AWS, Tableau, VMware AirWatch, and Terraform, with a solid background in both Linux and Windows environments. Passionate about cloud technologies, I focus on leveraging them to enhance business agility and drive innovation.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <span style="width: 90%;">AWS Cloud (EC2, S3, VPC, IAM, Lambda, CloudWatch, RDS, SFTP)</span>
+        </div>
+        <div class="skill-bar">
+            <span style="width: 85%;">Infrastructure Management (Terraform, VMware Workspace ONE)</span>
+        </div>
+        <div class="skill-bar">
+            <span style="width: 80%;">Operating Systems (Linux, Windows)</span>
+        </div>
+        <div class="skill-bar">
+            <span style="width: 75%;">Data Visualization (Tableau)</span>
+        </div>
+        <div class="skill-bar">
+            <span style="width: 75%;">Network Management (VPN Configuration, DHCP, Domain Joining)</span>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification">
+            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <p><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/9JXQ2TY201QEQDGF" target="_blank">Verify Here</a></p>
+        </div>
+        <div class="certification">
+            <h3>VMware Certified Professional - Digital Workspace</h3>
+            <p><a href="https://www.credly.com/badges/0b437842-9d0b-4f5b-833b-7a732f9c1aa5/public_url" target="_blank">Verify Here</a></p>
+        </div>
+        <div class="certification">
+            <h3>Associate Cloud Engineer</h3>
+            <p><a href="https://google.accredible.com/143bb1e2-a1c2-4ed7-a026-baef14fe6d80" target="_blank">Verify Here</a></p>
+        </div>
+        <div class="certification">
+            <h3>Oracle Cloud Infrastructure 2023 Certified Foundations Associate</h3>
+            <p><a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=C81142886CF3B6E3949F513DF53E9EFC24A83E27351126663E996D0ECA0368BA" target="_blank">Verify Here</a></p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div>
+            <h3>Jr System and DevOps Engineer | Haystek Technologies</h3>
+            <p>September 2024 – Present</p>
+            <ul>
+                <li>Developed infrastructure diagrams to enhance system understanding.</li>
+                <li>Created and deployed infrastructure using Terraform.</li>
+                <li>Configured CloudWatch Synthetics for monitoring website performance.</li>
+                <li>Designed CI/CD pipelines for efficient deployment using GitLab CI and AWS CodePipeline.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Cloud Engineer | Aspirenxt</h3>
+            <p>February 2022 – September 2024</p>
+            <ul>
+                <li>Managed multi-region AWS infrastructure deployments.</li>
+                <li>Implemented infrastructure migration strategies with minimal downtime.</li>
+                <li>Prepared architecture diagrams for new infrastructure setups.</li>
+                <li>Implemented monitoring systems for proactive issue resolution.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Infrastructure Deployment with Terraform</h3>
+            <p>Created scalable and secure AWS infrastructure for multiple projects using IaC principles.</p>
+        </div>
+        <div class="project">
+            <h3>Multi-Region AWS Architecture</h3>
+            <p>Implemented disaster recovery strategies and ensured high availability across regions.</p>
+        </div>
+        <div class="project">
+            <h3>Tableau Server Deployment</h3>
+            <p>Set up and managed Tableau servers in the AWS cloud for data visualization needs.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:poornachandar0144@gmail.com">poornachandar0144@gmail.com</a></p>
+        <p>Phone: +91 7093706996</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/poornachandar19" target="_blank">linkedin.com/in/poornachandar19</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Poornachandar Chandragouni. All rights reserved.</p>
+    </footer>
+</body>
+</html>
